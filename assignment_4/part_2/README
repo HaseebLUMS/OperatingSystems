@@ -1,0 +1,7 @@
+Everything is Working.
+I have used Enhanced Second Chance policy in first level.
+At second level, I have used single bit policy which has resulted in more than usual page faults.
+
+Also, If a table is not in memory but corresponding data frames are in memory then I have chosen to free zeroth frame in this scenario, It has resulted in extremely more than usual page faults but I have consulted Dr. Basit and he has acknowledged it to be valid.
+
+Bye!
