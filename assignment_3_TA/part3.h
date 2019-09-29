@@ -24,11 +24,4 @@ void initializeP3();
  */
 void *goingFromToP3(void * argument);
 void startP3();
-void * north_signal_f();
-void * east_signal_f();
-void * south_signal_f();
-void * west_signal_f();
-int is_left_turn(int from, int to);
-char* directions(int i);
-char* lanes(int i);
 #endif

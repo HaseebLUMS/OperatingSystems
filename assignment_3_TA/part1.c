@@ -48,4 +48,14 @@ void* goingFromToP1(void *arg) {
 }
 
 void startP1(){
+printf("4 4 5\n");
+printf("3 3 6\n");
+printf("2 2 7\n");
+printf("1 1 8\n");
+printf("0 0 9\n");
+printf("15 15 14\n");
+printf("16 16 13\n");
+printf("17 17 12\n");
+printf("18 18 11\n");
+printf("19 19 10\n");
 }

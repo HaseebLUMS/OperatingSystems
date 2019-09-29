@@ -12,7 +12,7 @@
 
 
 void catch_stdout(int pipefd[2], int *stdout_bk) {
-    pipe2(pipefd, 0);
+    pipe(pipefd);
     *stdout_bk = dup(fileno(stdout));
     dup2(pipefd[1], fileno(stdout));
 }

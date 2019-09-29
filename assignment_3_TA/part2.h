@@ -10,8 +10,5 @@ void initializeP2(int numTrains, int numStations);
  */
 void * goingFromToP2(void * user_data);
 
-void * user_f_2(void * casted_data);
-
-void * train_f();
 
 void * startP2();
