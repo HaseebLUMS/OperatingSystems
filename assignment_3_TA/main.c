@@ -58,7 +58,7 @@ void test(char *path) {
         threads[i] = tid;
     }
 
-    // startP1();
+    startP1();
 
     for(i = 0; i < NUM_PESSENGERS; i++) {
         pthread_join(threads[i], NULL);
@@ -221,7 +221,7 @@ void test3(char *path) {
 }
 
 int main() {
-    test("test1"); 
+    // test("test1_2");
     fflush(stdout);
     test2("test2");
     fflush(stdout);

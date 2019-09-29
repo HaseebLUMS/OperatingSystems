@@ -87,7 +87,7 @@ void* goingFromToP1(void *arg) {
 	return NULL;
 }
 
-void startP1(){}
+// void startP1(){}
 
 
 void * elevator_f (void* elevator_data) {
