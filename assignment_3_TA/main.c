@@ -46,7 +46,7 @@ void test(char *path) {
     }
 
     pthread_t threads[NUM_PESSENGERS];
-    struct argument *args[5]; 
+    struct argument *args[NUM_PESSENGERS]; 
     for(i = 0; i < NUM_PESSENGERS; i++) {
         pthread_t tid;
         struct argument *arg = (struct argument*)malloc(sizeof(struct argument));
@@ -221,7 +221,7 @@ void test3(char *path) {
 }
 
 int main() {
-    // test("test1_2");
+    test("test_1_2");
     fflush(stdout);
     test2("test2");
     fflush(stdout);
