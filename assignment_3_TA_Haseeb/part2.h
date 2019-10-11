@@ -1,3 +1,5 @@
+#ifndef PART_2
+#define PART_2
 
 /**
  * Do any initial setup work in this function.
@@ -12,3 +14,4 @@ void * goingFromToP2(void * user_data);
 
 
 void * startP2();
+#endif
